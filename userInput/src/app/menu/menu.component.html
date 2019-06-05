@@ -1,0 +1,6 @@
+<div class="topMenu">
+    <ul>
+        <li *ngFor="let item of menuArray" (click)="onNavigate(item)"><a>{{item.name}}</a></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
